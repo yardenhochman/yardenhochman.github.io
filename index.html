@@ -1,1 +1,99 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<Title>Yarden Hochman</Title>
+	
+	<style>
+		body {
+			font-family: 'indie Flower', cursive;
+			background-color: black;
+			text-align:center;
+			color:white;
+			display:inline-grid;
+		}
+		.name { /*This is to minimize the margin from the picture at the start of the page  */
+			margin:0px;
+		}
+		.me { /* added a round border to my picture*/
+			border-radius: 50%;
+			border: 7px solid white;
+		}
+		.start { /*this is a container for profile picture + Title*/
+			background: url("img/wood.jpg");
+			background-size: cover;
+			padding:50px 0 80px 0;
+		}
+		h1 {
+			font-size: 120px;
+		}
+		p {	/*The paragraph with the short description of myself*/
+			font-size:60px;
+			background: url("img/mountains.jpg");
+			margin:0 auto;
+			padding:140px 0 100px 0;
+		}
+		
+		ul {/*List of hobbies*/
+			list-style-type:none;
+			font-size:60px;
+		}
+		.favorites { /*this is a container for the list + its title*/
+			background: url("https://i.imgur.com/7wS2NyJ.jpg");
+			background-size: cover;
+		}
+
+
+
+		.ending {	/*this is a container for the buttons + "contact me" text */
+			background: url("https://i.imgur.com/JARgMsZ.jpg");
+			background-size: cover;
+		}
+
+		.list_title {
+			margin:0 auto;
+		}
+
+		</style>
+
+</head>
+
+<body>
+		<div class="start">
+		<h1 class="name">Yarden Hochman</h1>
+
+		<img class="me" src="https://i.imgur.com/Jt6Swlc.png" width=500 >
+		</div>
+		<p><br> <br><br>A multi-desciplined, curious person. I love to challenge myself and those around me and have a tendancy to question common assumptions and beliefs. Sometimes I live in a fantasy world. I love editing, as well as creating new concepts. <br> <br> <br> <br> </p> 
+		<div class=favorites>
+		<h1 class="list_title">Favorite things:</h1>
+
+		<ul>
+
+		<li>Strategy games</li>
+		<li>Video Editing</li>
+		<li>Acroyoga</li>
+		<li>Music</li>
+		<li>Sci-Fi</li>
+		<li>Cooking</li>
+		<li>Philosophy</li>
+		<li>Hiking</li>
+
+		</ul>
+		</div>
+		<div class="ending">
+		<h1>Let's start a conversation</h1>
+
+		<img class="email" src="https://i.imgur.com/gXL5lSU.png" width="5%" height=auto id=email onclick="parent.location='mailto:yyyarden@gmail.com?subject=sent through my shiny web button'"onmouseover="this.width=70;" onmouseout="this.width=58" />
+
+
+		<img class="LinkedIn" src="https://i.imgur.com/sit60G4.png" width="5%" height=auto id=LinkedIn onclick="parent.location='https://www.linkedin.com/in/yarden-hochman-2b6b0438/' "onmouseover="this.width=70;" onmouseout="this.width=58" />
+
+
+		</div>
+</body>
+</html>
+
+
