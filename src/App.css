@@ -95,6 +95,9 @@ body {
   display: flex;
   height: 60vh;
 }
+.pageEnd {
+  height:20vh;
+}
 
 .project_image {
  /*  border: 3px solid red; */
@@ -298,7 +301,7 @@ footer {
 .description {
   color:black;
    
-   margin: 4vh 0 0 8vw;
+   margin: 4vh 10vw 0 0;
    
    font-size: 2em;
    font-family: 'Saira Extra Condensed', sans-serif;

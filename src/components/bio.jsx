@@ -11,6 +11,7 @@ import React from 'react';
                     <p className="description">{description}</p>
                 </div>
             </div>
+            <div className="pageEnd"/>
         </section>
    )
 export default Bio;
