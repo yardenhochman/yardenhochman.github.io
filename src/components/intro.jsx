@@ -16,7 +16,7 @@ import React from 'react';
           <a href={`https://twitter.com/${twitter}`}><div className="twitter" /></a>
           <a href={`https://github.com/yardenhochman/yardenhochman.github.io/raw/master/file/Yarden%20Hochman%20CV.pdf`} className="resume"/>
           <a href={`mailto:${email}`}><div className="mail" /></a>
-          <a href={`https://www.linkedin.com/${linkedIn}`}><div className="linkedin" /></a>
+          <a href={`https://www.linkedin.com/in/${linkedIn}`}><div className="linkedin" /></a>
         </div>
       </footer>
     </section>
