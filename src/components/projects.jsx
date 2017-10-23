@@ -35,7 +35,7 @@ class Projects extends Component {
                 </div>
                 <div className="project_description_space">
                     {active?<p className="project_description">{projects[active-1].contex}</p>:""}
-                    {active?<a href={projects[active-1].codeUrl} className={`code_link_${projects[active-1].title}`}>Code</a>:""}
+                    {active?<a href={projects[active-1].codeUrl} className={`code_link_${projects[active-1].title}`}>View code</a>:""}
                 </div>
 
             </section>

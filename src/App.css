@@ -23,10 +23,8 @@
 
 a:hover {
   text-decoration:none;
+  color:red;
 }
-
-
-
 
 
 body {
@@ -81,10 +79,10 @@ body {
   transition: all 0.5s ease;
 }
 .code_link_Simon {
-  color:rgb(185, 107, 18);
+  color:red;
 }
 .code_link_Your {
-  color:rgb(179, 39, 74);
+  color:red;
 }
 
 .project_images {
@@ -98,17 +96,20 @@ body {
 }
 
 .project_image {
-  border: 3px solid rgb(185, 107, 18);
+ /*  border: 3px solid red; */
   width:35vw;
 }
-.image_Your {
-  border: 3px solid rgb(179, 39, 74);
-}
+/* .project_image:hover {
+  border: 8px solid red
+} */
+/* .image_Your {
+  border: 3px solid red
+} */
 
 
-.project_image:hover {
-  zoom: 150%
-}
+/* .project_image:hover {
+  zoom: 3000%
+} */
 
 
 .screen3 {
@@ -126,7 +127,7 @@ screen3_pics {
   display:inline-block;
 }
 .some_picture {
-  width:50vw;
+  width:35vw;
 }
 .viewcenter {
   display:flex;
@@ -278,22 +279,22 @@ footer {
   color:black
 }
 .some_picture {
-  width:50vw;
+  width:35vw;
 }
 .profile_pic {
-  width:50vw; /*  */
+  width:35vw; /*  */
   display:inline-block;
   overflow:hidden;
 }
 .descriptionDiv {
    display:inline-block;
-   width: 35vw;
+   width: 50vw;
 }
 .description {
   color:black;
    width:50vw;
    margin: 4vh 0 0 8vw;
-   width: 30vw;
+   width: 50vw;
    font-size: 2em;
 }
 .nav {
