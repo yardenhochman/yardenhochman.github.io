@@ -15,7 +15,7 @@ class Projects extends Component {
         return projects.map( (project,i) => (
             <div className="project_block" key={project.codeUrl}>
                 <a href={project.demo} >
-                    <img className="project_image" name={i+1} src={project.picture} onMouseOver={e => this.setActiveProject(e)}/>
+                    <img className={`project_image image_${project.title}`} name={i+1} src={project.picture} onMouseOver={e => this.setActiveProject(e)}/>
                 </a>
             </div>
         ))
@@ -25,15 +25,17 @@ class Projects extends Component {
         const {projects} = this.props
         return (
             <section className="container-fluid">
+                <a name="projects"/>
                 <div className="project_title_space">
                     {active?<p className="project_title">{projects[active-1].title}</p>:""}
-                    {active?<a href={projects[active-1].codeUrl} className="code_link">Code</a>:""}
+                    
                 </div>
                 <div className="project_images">
                     {this.listProjects(projects)}
                 </div>
                 <div className="project_description_space">
                     {active?<p className="project_description">{projects[active-1].contex}</p>:""}
+                    {active?<a href={projects[active-1].codeUrl} className={`code_link_${projects[active-1].title}`}>Code</a>:""}
                 </div>
 
             </section>
@@ -45,14 +47,4 @@ class Projects extends Component {
 
 export default Projects;
 
-/* 
-Display only one block of text at a time
-*/
 
-/* 
-
-        <div className="project_description">
-            <p className="project_title">{project.title}</p>
-            <p className="project_description">{project.contex}</p>
-        </div>
-*/

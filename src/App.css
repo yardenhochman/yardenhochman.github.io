@@ -21,6 +21,9 @@
   to { transform: rotate(360deg); }
 }
 
+a:hover {
+  text-decoration:none;
+}
 
 
 
@@ -28,25 +31,37 @@
 
 body {
   font-family: Tahoma;
-  background-color: rgba(185, 165, 142, 0.445)
+  background-color: rgba(185, 165, 142, 0.267)
 }
-.about {
-  display: table-cell;
-  vertical-align: middle;
-  height: 80vh;
+.link {
+  display: flex;
+  color: black;
+  height: 2vh;
+  height: 7vh;
 }
-p.about {
-  margin:5em 5em;
-  text-align: center;
-  font-size: 2em;
+
+.link_box {
+  width: 100px;
+  display: flex;
+  font-size: 3em; 
 }
+.link_symbol {
+  background-image: url('icons/number.png');
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+  margin: 1.7vh 0 0 0;
+}
+
+
 .Preview {
   height:50px;
   width:50px;
 }
 .project_title_space {
   font-weight:bold;
-  height: 20vh;
+  height: 10vh;
   width:100%;
   text-align:center;
   font-size:5vh;
@@ -57,7 +72,7 @@ p.about {
   height: 40vh;
   width:70vw;
   text-align:center;
-  display:flex;
+  
   font-size: 2em;
 }
 .project_description {
@@ -65,9 +80,13 @@ p.about {
   margin: 2vh auto;
   transition: all 0.5s ease;
 }
-.code_link {
-  color:rgb(167, 39, 179);
+.code_link_Simon {
+  color:rgb(185, 107, 18);
 }
+.code_link_Your {
+  color:rgb(179, 39, 74);
+}
+
 .project_images {
   margin: 0 auto;
   display: flex;
@@ -79,10 +98,13 @@ p.about {
 }
 
 .project_image {
+  border: 3px solid rgb(185, 107, 18);
   width:35vw;
-  border: 3px solid rgb(167, 39, 179);
-  height:100%;
 }
+.image_Your {
+  border: 3px solid rgb(179, 39, 74);
+}
+
 
 .project_image:hover {
   zoom: 150%
@@ -111,7 +133,7 @@ screen3_pics {
   flex-direction:column;
   height:30vh;
   text-align:center;
-  margin: 32vh 5em 20vh 0;
+  margin: 22vh 5em 20vh 0;
   font-size: 2em;
   width:100%;
 }
@@ -139,6 +161,25 @@ h1 {
   width: 50px;
   transition: all 1s ease;
 }
+.mail {
+  background-image: url('icons/email-14-xxl.png');
+  filter:grayscale(0%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
+
+.resume {
+  background-image: url('icons/resume.png');
+  filter:grayscale(0%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
+
+
 .twitter:hover {
   filter:grayscale(100%);
   background-size:50px;
@@ -173,15 +214,7 @@ h1 {
   width: 50px;
   transition: all 1s ease;
 }
-.instagram:hover {
-  filter:grayscale(0%);
-  background-size:50px;
-  height: 50px;
-  width: 50px;
-  filter: contrast(300%);
-  transition: all 1s ease;
-  
-}
+
 .linkedin {
   background-image: url('icons/linkedin-xxl.png');
   background-size:50px;
@@ -261,6 +294,7 @@ footer {
    width:50vw;
    margin: 4vh 0 0 8vw;
    width: 30vw;
+   font-size: 2em;
 }
 .nav {
   position: sticky;
