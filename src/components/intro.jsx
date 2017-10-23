@@ -2,8 +2,10 @@ import React from 'react';
 
   const Intro = ({intro:{name,occupation,email,sm:{instagram,twitter,linkedIn}}}) => (
     <section className="container-fluid">
-      <div className="link_box"><a href="#projects" class="link"><div className="link_symbol" />Projects</a></div>
-      <div className="link_box"><a href="#bio" class="link"><div className="link_symbol" />Bio</a></div>
+      <div className="links">
+        <div className="link_box"><a href="#projects" class="link"><div className="link_symbol" /><p>Projects</p></a></div>
+        <div className="link_box"><a href="#bio" class="link"><div className="link_symbol" />Bio</a></div>
+      </div>
       <div className="viewcenter">
         <h1 className="name">{name}</h1>
         <div className="centerLine">

@@ -25,21 +25,26 @@ a:hover {
   text-decoration:none;
   color:red;
 }
-
+link_text {
+  height: 8vh;
+  margin: 0 0 10px 0;
+}
 
 body {
   font-family: Tahoma;
   background-color: rgba(185, 165, 142, 0.267)
 }
+.links {
+  height: 20vh;
+}
 .link {
   display: flex;
   color: black;
-  height: 2vh;
   height: 7vh;
+  margin: 2vh 0 0 0;
 }
 
 .link_box {
-  width: 100px;
   display: flex;
   font-size: 3em; 
 }
@@ -49,7 +54,7 @@ body {
   height: 50px;
   width: 50px;
   transition: all 1s ease;
-  margin: 1.7vh 0 0 0;
+  margin: auto 0;
 }
 
 
@@ -94,9 +99,6 @@ body {
 .bio {
   display: flex;
   height: 60vh;
-}
-.pageEnd {
-  height:20vh;
 }
 
 .project_image {
@@ -301,7 +303,7 @@ footer {
 .description {
   color:black;
    
-   margin: 4vh 10vw 0 0;
+   margin: 3vh 0 0 8vw;
    
    font-size: 2em;
    font-family: 'Saira Extra Condensed', sans-serif;
