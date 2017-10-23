@@ -1,0 +1,360 @@
+.test {
+  text-align: center;
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.slide-enter.slide-enter-active {
+  transform:translateX(0);
+  transition: transform 5s ease-out;
+}
+.slide-appear {
+  opacity: 0;
+}
+.slide-appear.slide-appear-active {
+  opacity:1;
+  transition: opacity 0.5s ease-in;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+body {
+  font-family: Tahoma;
+  background-color: rgba(185, 165, 142, 0.445)
+}
+.about {
+  display: table-cell;
+  vertical-align: middle;
+  height: 80vh;
+}
+p.about {
+  margin:5em 5em;
+  text-align: center;
+  font-size: 2em;
+}
+.Preview {
+  height:50px;
+  width:50px;
+}
+.project_title_space {
+  font-weight:bold;
+  height: 20vh;
+  width:100%;
+  text-align:center;
+  font-size:5vh;
+  margin: 5vh auto;
+}
+.project_description_space {
+  margin: 7vh auto;
+  height: 40vh;
+  width:70vw;
+  text-align:center;
+  display:flex;
+  font-size: 2em;
+}
+.project_description {
+  width:60vw;
+  margin: 2vh auto;
+  transition: all 0.5s ease;
+}
+.code_link {
+  color:rgb(167, 39, 179);
+}
+.project_images {
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-around;
+  height: 40vh;
+}
+.bio {
+  display: flex;
+}
+
+.project_image {
+  width:35vw;
+  border: 3px solid rgb(167, 39, 179);
+  height:100%;
+}
+
+.project_image:hover {
+  zoom: 150%
+}
+
+
+.screen3 {
+  color:black;
+  margin: 0 auto;
+  display:flex;
+  width: 80vw;
+}
+screen3_pics {
+  width:80vw;
+  justify-content:space-around;
+}
+.pictures_gallery {
+  max-width:80vw;
+  display:inline-block;
+}
+.some_picture {
+  width:50vw;
+}
+.viewcenter {
+  display:flex;
+  flex-direction:column;
+  height:30vh;
+  text-align:center;
+  margin: 32vh 5em 20vh 0;
+  font-size: 2em;
+  width:100%;
+}
+.centerLine {
+  padding:0 0 0 0;
+  height: 5vh;
+  margin:0 auto;
+  width:30vw;
+  display:flex;
+  justify-content:space-around;
+}
+h1 {
+  color:black;
+  text-align:center;
+  font-size: 2em;
+  display:inline-block;
+  padding:0;
+  margin:0;
+}
+.twitter {
+  background-image: url('icons/twitter-xxl.png');
+  filter:grayscale(0%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
+.twitter:hover {
+  filter:grayscale(100%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  filter: contrast(300%);
+  transition: all 1s ease;
+  
+}
+.facebook {
+  background-image: url('icons/facebook_white.svg');
+  filter:grayscale(100%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
+.facebook:hover {
+  background-image: url('icons/facebook_color.svg');
+  filter:grayscale(0%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  filter: contrast(300%);
+  transition: all 1s ease;
+  
+}
+.instagram {
+  background-image: url('icons/instagram-red.png');
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
+.instagram:hover {
+  filter:grayscale(0%);
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  filter: contrast(300%);
+  transition: all 1s ease;
+  
+}
+.linkedin {
+  background-image: url('icons/linkedin-xxl.png');
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
+.linkedin:hover {
+  background-size:50px;
+  filter:grayscale(0%);
+  height: 50px;
+  width: 50px;
+  filter: contrast(300%);
+  transition: all 1s ease;
+}
+footer {
+  height:10vw;
+  width: 100vw;
+  margin: 0 0 10vh 0;
+}
+.social_media_links {
+  width: 30vw;
+  display:flex;
+  justify-content:space-around;
+  margin:0 35%;
+}
+.occupation {
+  padding:0;
+  margin:0;
+
+}
+.email {
+  margin:0;
+  color:white;
+  background-color:rgb(201, 31, 31);
+  transition: all 0.5s ease;
+  border-radius: 20%;
+  border: 0 solid white;
+  text-decoration:none;  
+  padding: 2px 6px 2px 6px;
+  font-size:0.5em;
+}
+.email:hover {
+  background-color:white;
+  color:red;
+  transition: all 0.5s ease;
+}
+.button {
+  color:black
+}
+.twitter {
+  color:black
+}
+.facebook {
+  color:black
+}
+.instagram {
+  color:black
+}
+.linkedin {
+  color:black
+}
+.some_picture {
+  width:50vw;
+}
+.profile_pic {
+  width:50vw; /*  */
+  display:inline-block;
+  overflow:hidden;
+}
+.descriptionDiv {
+   display:inline-block;
+   width: 35vw;
+}
+.description {
+  color:black;
+   width:50vw;
+   margin: 4vh 0 0 8vw;
+   width: 30vw;
+}
+.nav {
+  position: sticky;
+  width: 100%;
+  background-color: rgb(140, 165, 194);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.16), 0 3px 6px rgba(255, 255, 255, 0.23);
+  vertical-align: middle;
+  height: 5vh;
+}
+.nav-button {
+  vertical-align: middle;
+  margin-top: 25%;
+  margin-left: 3vw;
+}
+.setup {
+  margin:5em 2em;
+  text-align: center;
+  font-size: 2em;
+}
+.question {
+  font-size: 1em;
+  display:inline;
+}
+input:not([type=submit]) {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  padding:0 5px;
+  width: 30vw;
+}
+.hello {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  padding:0 5px;
+  width: 30vw;
+}
+
+.box {
+  text-align: left;
+  margin:0 2em;
+  font-size:1em;
+  display:inline;
+  padding: 2em;
+}
+h3 {
+  font-weight:normal;
+}
+
+.question-container {
+  width: 20vw;
+  display: inline-block;
+}
+input[type=submit] {
+  width: 80px;
+  height:25px;
+  font-family: Tahoma;
+  border: default;
+}
+button {
+  width: 80px;
+  height:25px;
+  font-family: Tahoma;
+}
+
+.dropzone {
+  margin:0 auto;
+  width: 6em;
+  height:7em;
+}
+dropzone_group {
+  padding: 5em
+}
+.single {
+  display: inline-block;
+  text-align:center;
+  margin: 0 1vw;
+}
+.Preview {
+  width: 100%;
+  height: auto;
+}
+
+.accept {
+  border: 1px solid black;
+}
+
+.qdescription {
+    width: 60vw;
+    border: 1px solid #3366FF;
+    border-left: 4px solid #3366FF;
+    margin: 0 15vw;
+}
