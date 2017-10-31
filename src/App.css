@@ -94,7 +94,8 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content:space-around;
-  height: 40vh;
+  height: 70vh;
+  flex-wrap: wrap;
 }
 .bio {
   display: flex;
