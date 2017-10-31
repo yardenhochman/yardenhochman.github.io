@@ -25,10 +25,7 @@ a:hover {
   text-decoration:none;
   color:red;
 }
-link_text {
-  height: 8vh;
-  margin: 0 0 10px 0;
-}
+
 
 body {
   font-family: Tahoma;
@@ -37,24 +34,31 @@ body {
 .links {
   height: 20vh;
 }
+
+
+.link_box {
+  display: flex;
+  font-size: 3em; 
+}
 .link {
   display: flex;
   color: black;
   height: 7vh;
   margin: 2vh 0 0 0;
 }
-
-.link_box {
-  display: flex;
-  font-size: 3em; 
-}
 .link_symbol {
   background-image: url('icons/number.png');
-  background-size:50px;
-  height: 50px;
-  width: 50px;
+  background-size:80%;
+  height: 10vh;
+  width: 10vw;
   transition: all 1s ease;
   margin: auto 0;
+  background-repeat: no-repeat;
+}
+link_text {
+  height: 8vh;
+  margin: 0 0 10px 0;
+  font-size: 0.6em;
 }
 
 
