@@ -19,11 +19,11 @@ const App = () => {
       contex:"A quick setup process that allows visitors to easily establish online presence. Utilizes an API for image storage, and React for a fluid setup process."
     },
     {
-      title: "SoundLand (In Development Collaborative)",
+      title: "SoundLand (In Development)",
       picture: "https://d30y9cdsu7xlg0.cloudfront.net/png/1041163-200.png",
       demo: "https://mighty-fjord-94542.herokuapp.com/",
       codeUrl: "https://github.com/yardenhochman/GenreLand",
-      contex: "A platform for understanding musical tastes in relation to location, and connecting people with similar tastes. This website utilizes API calls to retrieve neighboring zipcodes & bar venues, and Database storage to create and manage meetups between users."
+      contex: "A Collaborative project, intended to research the relationship between musical tastes and location, and facilitate connections between people with similar musical tastes."
     },
     {
       title: "Visual Weather (In Development)",
