@@ -162,6 +162,13 @@ h1 {
   padding:0;
   margin:0;
 }
+.github {
+  background-image: url('icons/github.gif');
+  background-size:50px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease;
+}
 .twitter {
   background-image: url('icons/twitter-xxl.png');
   filter:grayscale(0%);

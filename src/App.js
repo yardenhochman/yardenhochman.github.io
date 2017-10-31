@@ -7,8 +7,8 @@ const App = () => {
    
   const intro = {
                   name:"Yarden Hochman",email:"yyyarden@gmail.com",
-                  occupation:"Full Stack Web Developer",email:"yyyarden@gmail.com",
-                  sm:{instagram:"yardenhochman",twitter:"YardenH2",linkedIn:"yardenhochman"}
+                  occupation:"Full Stack Web Developer",
+                  sm:{instagram:"yardenhochman",twitter:"YardenH2",linkedIn:"yardenhochman",github:"yardenhochman"}
     }
   const projects = [
     {
