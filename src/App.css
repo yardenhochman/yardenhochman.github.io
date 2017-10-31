@@ -104,7 +104,8 @@ body {
 
 .project_image {
  /*  border: 3px solid red; */
-  width:35vw;
+  /* width:35vw; */
+  height: 20vh;
 }
 /* .project_image:hover {
   border: 8px solid red
