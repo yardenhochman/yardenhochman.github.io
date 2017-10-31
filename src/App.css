@@ -64,7 +64,6 @@ body {
 }
 .project_title_space {
   font-weight:bold;
-  height: 10vh;
   width:100%;
   text-align:center;
   font-size:5vh;
@@ -89,12 +88,13 @@ body {
 .code_link_Your {
   color:red;
 }
-
+.project_block {
+  color:red
+}
 .project_images {
   margin: 0 auto;
   display: flex;
   justify-content:space-around;
-  height: 70vh;
   flex-wrap: wrap;
 }
 .bio {
