@@ -17,7 +17,7 @@ import React from 'react';
         <div className="social_media_links">
           <a title="Github" target="_blank" href={`https://github.com/${github}`} ><div className="github" /></a>
           {/* <a href={`https://twitter.com/${twitter}`}><div className="twitter" /></a> */}
-          <a title="Resume" target="_blank" href={`../file/Yarden%20Hochman%20CV.pdf`} className="resume"/>
+          <a title="Resume" target="_blank" href={`https://github.com/yardenhochman/yardenhochman.github.io/raw/master/src/file/Yarden%20Hochman%20CV.pdf`} className="resume"/>
           <a title="Email" href={`mailto:${email}`}><div className="mail" /></a>
           <a title="LinkedIn" target="_blank" href={`https://www.linkedin.com/in/${linkedIn}`}><div className="linkedin" /></a>
         </div>
