@@ -44,7 +44,6 @@ const App = () => {
 
 
 
-    https://visualweatheryarden.herokuapp.com/
     /* {
       title:"Weather Sense",
       picture:"",
