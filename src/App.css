@@ -148,7 +148,7 @@ screen3_pics {
   flex-direction:column;
   height:30vh;
   text-align:center;
-  margin: 22vh 5em 20vh 0;
+  margin: 18vh 5em 24vh 0;
   font-size: 2em;
   width:100%;
 }
@@ -156,7 +156,7 @@ screen3_pics {
   padding:0 0 0 0;
   height: 5vh;
   margin:0 auto;
-  width:30vw;
+  width:60vw;
   display:flex;
   justify-content:space-around;
 }
