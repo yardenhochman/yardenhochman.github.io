@@ -45,6 +45,8 @@ body {
 .link_box {
   display: flex;
   height: 5vh;
+  margin: 1.5vh 0 0 0;
+  color: black;
   /* width: 10vw; */
   align-items:center;
 }
