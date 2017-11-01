@@ -38,7 +38,6 @@ body {
 
 .link_box {
   display: flex;
-  font-size: 3em; 
 }
 .link {
   display: flex;
@@ -49,14 +48,14 @@ body {
 .link_symbol {
   background-image: url('icons/number.png');
   background-size:80%;
-  height: 10vh;
-  width: 10vw;
+  height: 6vh;
+  width: 9vw;
   transition: all 1s ease;
   margin: auto 0;
   background-repeat: no-repeat;
 }
 link_text {
-  height: 8vh;
+  height: 6vh;
   margin: 0 0 10px 0;
   font-size: 0.6em;
 }
