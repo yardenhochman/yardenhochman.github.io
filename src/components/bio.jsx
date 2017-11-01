@@ -15,3 +15,12 @@ import React from 'react';
         </section>
    )
 export default Bio;
+
+
+/* 
+Todo:
+
+-Make mobile version where the text fills the screen properly and looks better
+-My Picture shows up after the text
+-Replace picture
+*/

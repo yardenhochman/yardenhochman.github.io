@@ -27,19 +27,9 @@ import React from 'react';
 export default Intro;
 
 /* 
-add link to scroll down and see projects, CV, Bio
 
-
-
-<header>
-  <div id="toplinks">
-    <a href="http://www.gary-chin.com"> gary chin </a><br/>
-    <a href="#aboutme"> about me </a><br/>
-    <a href="#skills"> skills </a><br/>
-    <a href="#mywork"> projects </a><br/> 
-    <a href="#contactme"> contact </a><br/> 
-  </div>
-</header> 
+Todo:
+-Make "Social Media Links" smaller when width exceeds 700 px
 
 
 */

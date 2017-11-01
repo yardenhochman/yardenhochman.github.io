@@ -47,3 +47,11 @@ class Projects extends Component {
 export default Projects;
 
 
+/* 
+Todo:
+
+-Make mobile version where the image includes the title and text of the project
+-Picture will fill up entire width of screen.
+-replace image of site generator
+
+*/
