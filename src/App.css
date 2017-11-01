@@ -32,7 +32,8 @@ body {
   background-color: rgba(185, 165, 142, 0.267)
 }
 .links {
-  height: 20vh;
+  height: 17vh;
+  font-size: 2em;
 }
 
 
@@ -55,9 +56,8 @@ body {
   background-repeat: no-repeat;
 }
 link_text {
-  height: 6vh;
+  height: 7vh;
   margin: 0 0 10px 0;
-  font-size: 0.6em;
 }
 
 
