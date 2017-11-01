@@ -44,18 +44,19 @@ body {
 
 .link_box {
   display: flex;
-  height: 5vh;
-  margin: 1.5vh 0 0 0;
-  color: black;
+  height: 7vh;
+  max-height: 70px;
   /* width: 10vw; */
   align-items:center;
 }
-/* .link {
-  display: flex;
+.link {
+  
   color: black;
+  /* 
+  display: flex;
   height: 7vh;
-  margin: 2vh 0 0 0;
-} */
+  margin: 2vh 0 0 0; */
+}
 .link_symbol {
   /* background-image: url('icons/number.png'); */
   background-size:80%;
