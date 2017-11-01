@@ -157,7 +157,9 @@ body {
 .project_image {
  /*  border: 3px solid red; */
   /* width:35vw; */
-  height: 180px;
+  height: 19vh;
+  width: auto;
+  min-height: 180px;
 }
 
 /* .project_image:hover {
