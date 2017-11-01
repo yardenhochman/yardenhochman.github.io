@@ -105,16 +105,49 @@ link_text {
 .image_SoundLand {
   width: 200px;
 }
+
+
+
+
 .bio {
   display: flex;
   height: 60vh;
+  flex-wrap: wrap;
 }
+.some_picture {
+  color:black;
+/*   width:35vw;
+  margin: 0 5vw 0 0;
+  height: 50vh; */
+}
+.profile_pic {
+  color:black;
+}
+.some_picture {
+  width:35vw;
+}
+
+.descriptionDiv {
+  width:350px;
+  flex-grow: 1;
+  max-width: 600px;
+}
+.description {
+  color:black;
+  font-size: 2em;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+
+
+
 
 .project_image {
  /*  border: 3px solid red; */
   /* width:35vw; */
   height: 180px;
 }
+
 /* .project_image:hover {
   border: 8px solid red
 } */
@@ -142,11 +175,7 @@ screen3_pics {
   max-width:80vw;
   display:inline-block;
 }
-.some_picture {
-  width:35vw;
-  margin: 0 5vw 0 0;
-  height: 50vh;
-}
+
 .viewcenter {
   display:flex;
   flex-direction:column;
@@ -304,28 +333,7 @@ footer {
 .linkedin {
   color:black
 }
-.some_picture {
-  width:35vw;
-}
-.profile_pic {
-  width:35vw; /*  */
 
-  display:inline-block;
-  overflow:hidden;
-}
-.descriptionDiv {
-   display:inline-block;
-   width:100%;
-   height:50vh;
-}
-.description {
-  color:black;
-   
-   margin: 3vh 0 0 8vw;
-   
-   font-size: 2em;
-   font-family: 'Saira Extra Condensed', sans-serif;
-}
 .nav {
   position: sticky;
   width: 100%;
