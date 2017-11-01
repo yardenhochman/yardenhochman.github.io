@@ -69,13 +69,13 @@ link_text {
   font-weight:bold;
   width:100%;
   text-align:center;
-  font-size:5vh;
-  margin: 5vh auto;
+  font-size:2.5em;
+  margin: 5vh auto 1vh 0;
   height:10vh;
 }
 .project_description_space {
-  margin: 7vh auto;
-  height: 30vh;
+  margin: 4vh auto 7vh auto;
+  height: 40vh;
   width:70vw;
   text-align:center;
   

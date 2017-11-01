@@ -30,6 +30,4 @@ export default Intro;
 
 Todo:
 -Make "Social Media Links" smaller when width exceeds 700 px
-
-
 */
