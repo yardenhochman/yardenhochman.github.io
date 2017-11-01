@@ -114,6 +114,8 @@ link_text {
   height: 60vh;
   flex-wrap: wrap-reverse;
   justify-content: center;
+  align-items: center;
+  align-content: space-between;
 }
 .some_picture {
   color:black;
@@ -123,9 +125,7 @@ link_text {
 }
 .profile_pic {
   color:black;
-}
-.some_picture {
-  width:35vw;
+  margin: 0 20px;
 }
 
 .descriptionDiv {
