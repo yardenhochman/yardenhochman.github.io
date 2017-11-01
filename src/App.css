@@ -253,16 +253,15 @@ h1 {
   transition: all 1s ease;
 }
 footer {
-  height:7vw;
   width: 100vw;
   margin: 0 0 10vh 0;
   display: flex;
   justify-content: center;
 }
 .social_media_links {
-  width: 70vw;
+  width: 60vw;
   display:flex;
-  justify-content:center;
+  justify-content:space-around;
   margin: 0 7vw 0 0;
 }
 .occupation {
