@@ -46,7 +46,7 @@ body {
   margin: 2vh 0 0 0;
 }
 .link_symbol {
-  background-image: url('icons/number.png');
+  /* background-image: url('icons/number.png'); */
   background-size:80%;
   height: 6vh;
   width: 9vw;
