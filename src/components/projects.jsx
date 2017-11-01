@@ -28,7 +28,6 @@ class Projects extends Component {
                 <a name="projects"/>
                 <div className="project_title_space">
                     {active?<p className="project_title">{projects[active-1].title}</p>:""}
-                    
                 </div>
                 <div className="project_images">
                     {this.listProjects(projects)}

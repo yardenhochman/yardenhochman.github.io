@@ -19,18 +19,18 @@ const App = () => {
       contex:"A quick setup process that allows visitors to easily establish online presence. Utilizes an API for image storage, and React for a fluid setup process."
     },
     {
-      title: "SoundLand (In Development)",
+      title: "SoundLand",
       picture: "https://d30y9cdsu7xlg0.cloudfront.net/png/1041163-200.png",
       demo: "https://mighty-fjord-94542.herokuapp.com/",
       codeUrl: "https://github.com/yardenhochman/GenreLand",
-      contex: "A Collaborative project, intended to research the relationship between musical tastes and location, and facilitate connections between people with similar musical tastes."
+      contex: "A Collaborative project, intended to research the relationship between musical tastes and location, and facilitate connections between people with similar musical tastes. (In Development)"
     },
     {
-      title: "Visual Weather (In Development)",
+      title: "Visual Weather",
       picture: "http://oi66.tinypic.com/2z7ifqr.jpg",
       demo: "https://weather1989.herokuapp.com/",
       codeUrl: "https://github.com/yardenhochman/Visual-Weather",
-      contex: "A weather app with automatic location detection and API for local weather forecast. Aims to represent the forecast visually, no text"
+      contex: "A weather app with automatic location detection and API for local weather forecast. Aims to represent the forecast visually, no text. (In Development)"
     },
     {
       title:"Simon Says",
