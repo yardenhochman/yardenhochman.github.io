@@ -14,7 +14,7 @@ class Projects extends Component {
     listProjects(projects) {
         return projects.map( (project,i) => (
             <div className="project_block" key={project.codeUrl}>
-                <a href={project.demo} >
+                <a href={project.codeUrl} >
                     <img className={`project_image image_${project.title}`} name={i+1} src={project.picture} onMouseOver={e => this.setActiveProject(e)}/>
                 </a>
             </div>
@@ -34,7 +34,6 @@ class Projects extends Component {
                 </div>
                 <div className="project_description_space">
                     {active?<p className="project_description">{projects[active-1].contex}</p>:""}
-                    {active?<a href={projects[active-1].codeUrl} className={`code_link_${projects[active-1].title}`}>View code</a>:""}
                 </div>
 
             </section>
@@ -53,5 +52,9 @@ Todo:
 -Make mobile version where the image includes the title and text of the project
 -Picture will fill up entire width of screen.
 -replace image of site generator
+
+
+legacy:
+{active?<a href={projects[active-1].codeUrl} className={`code_link_${projects[active-1].title}`}>View code</a>:""}
 
 */
