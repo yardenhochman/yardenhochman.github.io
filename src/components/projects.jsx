@@ -13,7 +13,7 @@ class Projects extends Component {
         className="project_block"
         key={project.codeUrl}
       >
-        <a href={project.codeUrl}>
+        <a href={project.demo}>
           <img
             className={`project_image image_${
               project.title
@@ -56,7 +56,7 @@ class Projects extends Component {
           )}
           {active ? (
             <a
-              href={projects[active - 1].demo}
+              href={projects[active - 1].codeUrl}
               className="project_link"
             >
               Demo
