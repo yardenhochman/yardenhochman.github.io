@@ -1,3 +1,15 @@
+
+.name {
+  font-family: 'Merriweather', serif;
+}
+.occupation {
+  padding:0;
+  margin:0;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+.link_text {
+  font-family: 'Merriweather', serif;
+} 
 .test {
   text-align: center;
   background-color: #222;
@@ -20,10 +32,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-feComposite
+a {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+}
 a:hover {
   text-decoration:none;
   color:red;
+}
+.project_title {
+  color: rgb(0, 0, 0);
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -66,16 +85,14 @@ body {
   margin: auto 0;
   background-repeat: no-repeat;
 }
-/* link_text {
-  height: 7vh;
-  margin: 0 0 10px 0;
-} */
+
 
 
 .Preview {
   height:50px;
   width:50px;
 }
+
 .project_title_space {
   font-weight:bold;
   width:100%;
@@ -96,6 +113,7 @@ body {
   width:60vw;
   margin: 2vh auto;
   transition: all 0.5s ease;
+    font-family: 'Open Sans', sans-serif;
 }
 .code_link_Simon {
   color:red;
@@ -147,7 +165,8 @@ body {
 .description {
   color:black;
   font-size: 1.8em;
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -312,11 +331,7 @@ footer {
   margin: 0 7vw 0 0;
   max-width: 600px;
 }
-.occupation {
-  padding:0;
-  margin:0;
-  font-family: 'Saira Extra Condensed', sans-serif;
-}
+
 .email {
   margin:0;
   color:white;
