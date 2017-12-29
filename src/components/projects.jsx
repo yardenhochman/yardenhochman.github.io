@@ -59,7 +59,7 @@ class Projects extends Component {
               href={projects[active - 1].codeUrl}
               className="project_link"
             >
-              Demo
+              Code
             </a>
           ) : (
             ''
