@@ -3,6 +3,7 @@ import './App.css';
 import Intro from './components/intro';
 import Projects from './components/projects';
 import Bio from './components/bio';
+
 const App = () => {
   const intro = {
     name: 'Yarden Hochman',
@@ -12,30 +13,27 @@ const App = () => {
       instagram: 'yardenhochman',
       twitter: 'YardenH2',
       linkedIn: 'yardenhochman',
-      github: 'yardenhochman'
-    }
+      github: 'yardenhochman',
+    },
   };
   const projects = [
     {
-      title: 'Your Online Page',
-      picture:
-        'https://s1.postimg.org/6l5nmmgqv3/online_Page_Setup.jpg',
-      demo:
-        'https://yourpage.herokuapp.com/main/setup',
-      codeUrl:
-        'https://github.com/Yardel1/create_your_page',
+      title: 'Acroyoga Pose Finder',
+      picture: 'http://res.cloudinary.com/dz2nxhscn/image/upload/v1517175181/acroyoga_c8rpu1.jpg',
+      picture2: 'http://res.cloudinary.com/dz2nxhscn/image/upload/v1514931173/nwopffou6upu9ltzzyzx.jpg',
+      demo: 'https://acroindex.herokuapp.com',
+      codeUrl: 'https://github.com/yardenhochman/Acroyoga',
       contex:
-        'A quick setup process that allows visitors to easily establish online presence. Utilizes an API for image storage, and React for a fluid setup process.'
+        'This website helps you quickly find Acroyoga poses on the go. Features a responsive design, swiping functionality on mobile, and a favorites list feature for registered users.',
     },
     {
       title: 'SoundLand',
-      picture:
-        'https://d30y9cdsu7xlg0.cloudfront.net/png/1041163-200.png',
+      picture: 'https://d30y9cdsu7xlg0.cloudfront.net/png/1041163-200.png',
+      picture2: 'https://d30y9cdsu7xlg0.cloudfront.net/png/1041163-200.png',
       demo: 'https://genremap.herokuapp.com/',
-      codeUrl:
-        'https://github.com/yardenhochman/GenreLand',
+      codeUrl: 'https://github.com/yardenhochman/GenreLand',
       contex:
-        'A Collaborative project, intended to research the relationship between musical tastes and location, and facilitate connections between people with similar musical tastes.'
+        'A Collaborative project, intended to research the relationship between musical tastes and location, and facilitate connections between people with similar musical tastes.',
     },
     /* {
       title: 'Visual Weather',
@@ -49,15 +47,12 @@ const App = () => {
     }, */
     {
       title: 'Simon Says',
-      picture:
-        'http://i67.tinypic.com/35344gk.jpg',
-      demo:
-        'https://yardenhochman.github.io/Simon-Says',
-      codeUrl:
-        'https://github.com/yardenhochman/Simon-Says',
-      contex:
-        'A memory game written based entirely off constructors, all in ECMAScript2015 standard code.'
-    }
+      picture: 'http://i67.tinypic.com/35344gk.jpg',
+      demo: 'https://yardenhochman.github.io/Simon-Says',
+      codeUrl: 'https://github.com/yardenhochman/Simon-Says',
+      contex: 'A memory game written based entirely off constructors, all in ECMAScript2015 standard code.',
+      picture2: 'http://res.cloudinary.com/dz2nxhscn/image/upload/v1517201557/active_simon_Says_dhkepc.jpg',
+    },
 
     /* {
       title:"Weather Sense",
@@ -76,13 +71,13 @@ const App = () => {
   ];
   const vc = {
     VCFile: {
-      link: './file/Yarden Hochman CV.pdf'
-    }
+      link: './file/Yarden Hochman CV.pdf',
+    },
   };
   const bio = {
     myPicUrl: 'http://alturl.com/ft42i',
     description:
-      'A multi-disciplinary programmer with full stack web development experience, looking for opportunities to develop engaging websites for products people need. I’m an idealist autodidact who loves to experiment and uncover the optimal path for each challenge I face.'
+      'A multi-disciplinary programmer with full stack web development experience, looking for opportunities to develop engaging websites for products people need. I’m an idealist autodidact who loves to experiment and uncover the optimal path for each challenge I face.',
   };
   return (
     <main>

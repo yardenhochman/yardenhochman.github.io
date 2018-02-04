@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CrossfadeImage from 'react-crossfade-image';
 
 class Projects extends Component {
   state = { project: 0 };
@@ -8,57 +9,39 @@ class Projects extends Component {
   };
 
   listProjects = projects => {
-    return projects.map((project, i) => (
-      <div
-        className="project_block"
-        key={project.codeUrl}
-      >
-        <a href={project.demo}>
-          <img
-            className={`project_image image_${
-              project.title
-            }`}
-            name={i + 1}
-            src={project.picture}
-            onMouseOver={e =>
-              this.setActiveProject(e)
-            }
-          />
-        </a>
-      </div>
-    ));
+    const activeProjectIndex = this.state.project - 1;
+    return projects.map((project, i) => {
+      const imageToDisplay = activeProjectIndex === i ? project.picture2 : project.picture;
+      console.log('image', imageToDisplay);
+      return (
+        <div className="project_block" key={project.codeUrl}>
+          <a href={project.demo}>
+            <img
+              className={`project_image image_${project.title}`}
+              name={i + 1}
+              src={imageToDisplay}
+              onMouseOver={e => this.setActiveProject(e)}
+            />
+          </a>
+        </div>
+      );
+    });
   };
   render() {
-    let active = this.state.project;
+    const active = this.state.project;
     const { projects } = this.props;
     return (
       <section className="container-fluid">
-        <a name="projects" />
+        <a name="Projects" />
+        <h2>Projects</h2>
         <div className="project_title_space">
-          {active ? (
-            <p className="project_title">
-              {projects[active - 1].title}
-            </p>
-          ) : (
-            ''
-          )}
+          {active ? <p className="project_title">{projects[active - 1].title}</p> : ''}
         </div>
-        <div className="project_images">
-          {this.listProjects(projects)}
-        </div>
+        <div className="project_images">{this.listProjects(projects)}</div>
         <div className="project_description_space">
+          {active ? <p className="project_description">{projects[active - 1].contex}</p> : ''}
           {active ? (
-            <p className="project_description">
-              {projects[active - 1].contex}
-            </p>
-          ) : (
-            ''
-          )}
-          {active ? (
-            <a
-              href={projects[active - 1].codeUrl}
-              className="project_link"
-            >
+            <a href={projects[active - 1].codeUrl} className="project_link">
               Code
             </a>
           ) : (
