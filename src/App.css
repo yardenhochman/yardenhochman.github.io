@@ -45,6 +45,7 @@ a:hover {
   color: rgb(0, 0, 0);
   font-family: 'Open Sans', sans-serif;
   font-size: 2.5rem;
+  grid-area: title;
 }
 h2 {
   font-family: 'Merriweather', serif;
@@ -112,6 +113,14 @@ body {
   font-size:2.5em;
   margin: 5vh auto 1vh 0;
   height:12vh;
+  display: grid;
+  grid-template-columns: 25% 1fr 5% 20%;
+grid-template-areas: 
+    ". title link . ";
+}
+.project_link {
+  margin: 0 20px;
+  grid-area: link;
 }
 .project_description_space {
   margin: 4vh auto 1vh auto;

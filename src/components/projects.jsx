@@ -30,26 +30,28 @@ class Projects extends Component {
   render() {
     const active = this.state.project;
     const { projects } = this.props;
-    return (
-      <section className="container-fluid">
+    return <section className="container-fluid">
         <a name="Projects" />
         <h2>Projects</h2>
         <div className="project_title_space">
-          {active ? <p className="project_title">{projects[active - 1].title}</p> : ''}
+        {
+          active
+            ?
+          <React.Fragment>
+            <p className="project_title">{projects[active - 1].title}</p>
+            <a href={projects[active - 1].codeUrl} className="project_link">
+              <i class="fab fa-github" />
+            </a>
+          </React.Fragment>
+          :
+          <div />
+        }
         </div>
         <div className="project_images">{this.listProjects(projects)}</div>
         <div className="project_description_space">
           {active ? <p className="project_description">{projects[active - 1].contex}</p> : ''}
-          {active ? (
-            <a href={projects[active - 1].codeUrl} className="project_link">
-              Code
-            </a>
-          ) : (
-            ''
-          )}
         </div>
-      </section>
-    );
+      </section>;
   }
 }
 
