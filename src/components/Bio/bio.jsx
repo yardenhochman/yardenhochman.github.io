@@ -6,7 +6,7 @@ const Bio = () => {
   return (
     <section className="container-fluid">
       <a name="bio" href="#bio">
-        <h2>
+        <h2 className="bio-title">
           Hi!
         </h2>
       </a>

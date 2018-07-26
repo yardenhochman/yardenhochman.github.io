@@ -63,6 +63,7 @@ a:hover {
 
 .project_description {
   font-family: 'Open Sans', sans-serif;
+  padding-left: 3vw;
 }
 
 h2 {
@@ -70,6 +71,9 @@ h2 {
   font-size: 4rem;
   text-align: center;
 
+  margin-bottom: 10vh;
+}
+h2.bio-title {
   margin-bottom: 20vh;
 }
 
@@ -148,6 +152,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 0 5%;
+
 }
 .project_block > a {
   display: flex;
@@ -162,6 +167,7 @@ body {
   font-family: 'Merriweather', serif;
   font-size: 1.8rem;
   color: rgb(65, 41, 41);
+  padding-bottom: 10px;
 }
 
 @media (max-width: 600px) {
@@ -184,6 +190,9 @@ body {
 
 }
 @media (min-width: 1300px) {
+  .project_block {
+    margin: 20vh 0;
+  }
   .image_Acroyoga {
     width: 700px;
   } 
