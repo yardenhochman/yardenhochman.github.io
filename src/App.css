@@ -1,4 +1,7 @@
 
+
+
+
 .name {
   font-family: 'Merriweather', serif;
 }
@@ -63,14 +66,13 @@ a:hover {
 
 .project_description {
   font-family: 'Open Sans', sans-serif;
-  padding-left: 3vw;
 }
 
 h2 {
   font-family: 'Merriweather', serif;
   font-size: 4rem;
   text-align: center;
-
+  padding-top: 5vh;
   margin-bottom: 10vh;
 }
 h2.bio-title {
@@ -138,13 +140,13 @@ body {
   color:red;
 }
 .image_Simon{
-  width:260px;
+  width:360px;
 }
 .image_Acroyoga{
-  width:350px;
+  width:450px;
 }
 .image_SoundLand {
-  width: 200px;
+  width: 260px;
 }
 
 .project_block {
@@ -152,6 +154,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 0 5%;
+  margin: 2vh 0;
 
 }
 .project_block > a {
@@ -170,7 +173,7 @@ body {
   padding-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .project_block {
     flex-direction: column;
     align-content: center;
@@ -194,10 +197,10 @@ body {
     margin: 20vh 0;
   }
   .image_Acroyoga {
-    width: 700px;
+    width: 800px;
   } 
   .image_SoundLand {
-    width: 400px;
+    width: 500px;
   }
   .project_image {
     height: 38vh;
@@ -208,9 +211,10 @@ body {
   }
   .project_description {
     font-size: 1.8rem;
+    padding-left: 3vw;
   }
   .image_Simon{
-    width:520px;
+    width:620px;
   }
 
 }

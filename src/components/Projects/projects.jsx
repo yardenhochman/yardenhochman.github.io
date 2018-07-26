@@ -13,7 +13,7 @@ class Projects extends PureComponent {
       const imageToDisplay = activeProjectIndex === i ? project.picture2 : project.picture;
       return (
         <div className="project_block" key={project.codeUrl}>
-          <a href={project.demo}>
+          <a href={project.demo} className={`project_link_${project.title}`}>
             <img
               className={`project_image image_${project.title}`}
               name={i + 1}
